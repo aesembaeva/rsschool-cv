@@ -37,7 +37,9 @@ body {
 
 
 header {
-  background-color: #829985;
+  background-color: #eb7d23b1;
+  color: snow;
+  text-align: center;
 }
 
 .nav-list {
@@ -53,10 +55,12 @@ header {
   line-height: 50px;
   transition: .3s;
   text-decoration: none;
+  color: snow;
 }
 
 .main-container {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
@@ -65,7 +69,7 @@ header {
 }
 
 .section-item a {
-  color: #829985;
+  color: #eb7d23b1;
   text-decoration: none;  
   transition: color 0.5s;
 }
@@ -79,7 +83,17 @@ header {
   }
 }
 
+
 footer {
-  background-color: #829985;
-  height: 50px; 
+  background-color: #eb7d23b1; 
+  color: snow;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: snow;
 }
